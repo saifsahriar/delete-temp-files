@@ -2,7 +2,7 @@
 
 TARGET_DIR="/tmp"
 DAYS=7
-OLD_FILES=$(find  "$TARGET_DIR" -type f -mtime +$DAYS)
+OLD_FILES=$(sudo find  "$TARGET_DIR" -type f -mtime +$DAYS)
 
 if [ -z "${OLD_FILES[0]}" ]; then
         echo "No files found"
