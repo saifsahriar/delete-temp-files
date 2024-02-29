@@ -10,18 +10,12 @@ Step 1:
 
 Step 2:
 
-    ```
     cd delete-temp-files
-    ```
 
 Step 3:
 
-    ```
     chmod +x remove.sh
-    ```
 
 Step 4:
 
-    ```
     ./remove.sh
-    ```
