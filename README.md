@@ -4,25 +4,25 @@ This script allows you to remove temporary files from your system.
 
 ## Steps
 
-1. 
+Step 1: 
 
     ```bash
     git clone https://github.com/saifsahriar/delete-temp-files.git
     ```
 
-2. Navigate to the cloned directory:
+Step 2:
 
     ```bash
     cd delete-temp-files
     ```
 
-3. Give execute permissions to the `remove.sh` script:
+Step 3:
 
     ```bash
     chmod +x remove.sh
     ```
 
-4. Run the script to remove temporary files:
+Step 4:
 
     ```bash
     ./remove.sh
